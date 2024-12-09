@@ -1,6 +1,6 @@
 ARG version
 FROM almalinux:${version:-9}
-ARG course="Devops with AWS" \
+ARG course="Devops with aws" \
 ARG duration="120hrs" 
 RUN echo "course: $course, duration: $duration"
 CMD ["sleep","100"]
